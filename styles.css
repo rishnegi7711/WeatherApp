@@ -45,6 +45,11 @@ td {
   border-collapse: collapse;
   text-align: left;
 }
+
+th {
+  background-color: #4472c4;
+  color: white;
+}
 .main-right {
   text-align: right;
   height: 100%;
