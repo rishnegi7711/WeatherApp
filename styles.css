@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.main {
+  height: 500px;
+  width: 70%;
+  margin: auto;
+  border: 4px solid #e0dede;
+  position: relative;
+  overflow: hidden;
+}
+.top-div {
+  background-color: #4472c4;
+  text-align: center;
+  height: 100px;
+  padding: 15px 0;
+}
+
+.sidebar {
+  width: 20%;
+  border-right: 3px solid black;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather {
+  margin: 10px;
+  background-color: #4472c4;
+  border-radius: 4px;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 2px solid #e0dede;
+  margin: 10px;
+  padding: 1px 20px;
+  border-collapse: collapse;
+  text-align: left;
+}
+.main-right {
+  text-align: right;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.search {
+  background-color: #4472c4;
+  border-radius: 4px;
+  color: white;
+  margin-right: 5px;
+  margin-top: 5px;
+}
